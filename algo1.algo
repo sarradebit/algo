@@ -1,0 +1,38 @@
+ALGORITHM nb_charachters_in_the_string
+VAR
+compteur : INTEGER = 0;
+i : STRING ;
+BEGIN
+    FOR i=0; i !: ' ' ; i++; DO
+    compteur = compteur + 1;
+    Write(compteur)
+    END_FOR
+END
+
+
+ALGORITHM vowels
+VAR
+    str: STRING : = "the best in the world" ;
+    count : INTEGER := 0 ;
+    vowels : CHAR (a , e , i , o , u , y);
+
+
+BEGIN
+    FOR i in str DO 
+    IF str.charAt (i) = vowels THEN
+    count++;
+END if
+END for
+Write(count)
+
+
+ALGORITHM number of words in a string
+VAR
+   i : STRING
+   compteur : INTEGER=0 ;
+BEGIN
+    FOR i=0; i= ' '; i++ DO
+    compteur = compteur +1 ;
+END_FOR
+write(compteur)
+END
